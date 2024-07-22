@@ -149,7 +149,7 @@ df_sales = df_orders.merge(df_details)
 df_sales['Total'] = df_sales['Price'] * df_sales['Quantity']
 ```
 ## 📈 Summary
-This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis. 
+This project provides a comprehensive analysis of sales data. By merging multiple fictional datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis. 
 
 **Total Sales by Region:** The total sales by region showcase that sales are evenly distributed between both regions. This even split suggests that both regions have equal potential for sales. This balanced distribution could imply that the sales strategies are uniformly effective across regions, but further analysis might be required to understand the underlying factors contributing to this balance.
 
