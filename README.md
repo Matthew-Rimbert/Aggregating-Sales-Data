@@ -47,3 +47,45 @@ The dataset used in this project includes:
 ## 🖼️ Example Outputs
 
 ### Aggregated Sales Data:
+| Date       | Region | Empname      | Total |
+|------------|--------|--------------|-------|
+| 2022-02-04 | East   | Tom Heints   | 97.0  |
+| 2022-02-04 | West   | Jeff Russell | 243.0 |
+| 2022-02-05 | East   | Maya Silver  | 78.0  |
+| 2022-02-05 | East   | Tom Heints   | 82.0  |
+| 2022-02-05 | West   | Jane Boorman | 35.0  |
+| 2022-02-06 | East   | Maya Silver  | 110.0 |
+| 2022-02-06 | West   | Jane Boorman | 86.0  |
+
+### Total Sales by Region:
+| Region | Total |
+|--------|-------|
+| East   | 367.0 |
+| West   | 364.0 |
+
+![Total Sales by Region](images/total_sales_by_region.png)
+
+### Average Sales per Employee:
+| Empname      | Total |
+|--------------|-------|
+| Jane Boorman | 60.5  |
+| Jeff Russell | 243.0 |
+| Maya Silver  | 94.0  |
+| Tom Heints   | 89.5  |
+
+![Average Sales per Employee](images/average_sales_per_employee.png)
+
+### Sales Trends Over Time:
+| Date       | Total |
+|------------|-------|
+| 2022-02-04 | 340.0 |
+| 2022-02-05 | 195.0 |
+| 2022-02-06 | 196.0 |
+
+![Sales Trends Over Time](images/sales_trends_over_time.png)
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📜 License
+This project is licensed under the MIT License.
