@@ -121,8 +121,9 @@ orders = [
 ]
 
 df_orders = pd.DataFrame(orders, columns=['OrderNo', 'Date', 'Empno'])
-
+```
 # Load Order Details data
+```python
 details = [
     (9423517, 'Jeans', 'Rip Curl', 87.0, 1),
     (9423517, 'Jacket', 'The North Face', 112.0, 1),
@@ -141,12 +142,12 @@ details = [
 ]
 
 df_details = pd.DataFrame(details, columns=['OrderNo', 'Item', 'Brand', 'Price', 'Quantity'])
-
+```
 # Merge Orders and Order Details
+```python
 df_sales = df_orders.merge(df_details)
 df_sales['Total'] = df_sales['Price'] * df_sales['Quantity']
-```python
-
+```
 ## 📈 Summary
 This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis. 
 
