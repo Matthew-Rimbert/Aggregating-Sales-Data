@@ -122,7 +122,7 @@ orders = [
 
 df_orders = pd.DataFrame(orders, columns=['OrderNo', 'Date', 'Empno'])
 ```
-# Load Order Details data
+### Load Order Details data
 ```python
 details = [
     (9423517, 'Jeans', 'Rip Curl', 87.0, 1),
@@ -143,7 +143,7 @@ details = [
 
 df_details = pd.DataFrame(details, columns=['OrderNo', 'Item', 'Brand', 'Price', 'Quantity'])
 ```
-# Merge Orders and Order Details
+### Merge Orders and Order Details
 ```python
 df_sales = df_orders.merge(df_details)
 df_sales['Total'] = df_sales['Price'] * df_sales['Quantity']
