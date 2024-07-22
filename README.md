@@ -68,8 +68,9 @@ This table shows the total sales grouped by region.
 | East   | 367.0 |
 | West   | 364.0 |
 
-![Total Sales by Region](https://github.com/user-attachments/assets/325c73b2-6761-49d6-bbfb-ff023d785b6b)
+![Total Sales by Region](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/5c5007db-026a-4f74-aa62-3626fdafe14f)
 
+**Insight:** The total sales by region showcase that sales are evenly distributed between both regions. This even split suggests that both regions have equal potential for sales. This balanced distribution could imply that the sales strategies are uniformly effective across regions, but further analysis might be required to understand the underlying factors contributing to this balance.
 
 ### Average Sales per Employee:
 This table shows the average sales per employee.
@@ -81,8 +82,9 @@ This table shows the average sales per employee.
 | Maya Silver  | 94.0  |
 | Tom Heints   | 89.5  |
 
-![Average Sales per Employee](https://github.com/user-attachments/assets/b8083d84-68cb-4f98-9af4-e243d02d4f84)
+![Average Sales per Employee](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/943f8d24-acdb-4074-88b2-8ecafcab89d8)
 
+**Insight:** The average sales per employee provide valuable insights into the performance of the sales team. Notably, Jeff Russell has a significantly higher average sales amount. This discrepancy suggests that Jeff Russell may have particularly effective sales tactics or a higher level of experience. To improve overall sales performance, it might be beneficial to analyze Jeff's methods and consider implementing training programs to help other employees achieve similar results. Additionally, introducing incentives could motivate the sales team to enhance their performance.
 
 ### Sales Trends Over Time:
 This table shows the total sales over time, helping to identify trends in sales.
@@ -93,10 +95,9 @@ This table shows the total sales over time, helping to identify trends in sales.
 | 2022-02-05 | 195.0 |
 | 2022-02-06 | 196.0 |
 
-![Sales Trends Over Time](https://github.com/user-attachments/assets/01200efc-ec7e-4fa4-aadf-01cfe253a9fc)
+![Sales Trends Over Time](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/274b30bb-00f9-47c7-8ac4-706a5259fc2d)
 
-
+**Insight:** The sales trends over time highlight fluctuations in sales performance. February 4th shows a peak in sales, which could be due to specific marketing efforts, promotions, or external factors influencing customer behavior. The following days show a decline, suggesting a need for consistent strategies to maintain high sales levels. Further analysis could help identify the causes of these fluctuations and assist in developing strategies to achieve more stable sales growth.
 
 ## 📈 Summary
-This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis.
-
+This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis. The even distribution of sales between regions suggests uniform sales potential, while the standout performance of individual employees highlights areas for potential training and incentives to boost overall team performance.
