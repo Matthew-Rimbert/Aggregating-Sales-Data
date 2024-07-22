@@ -68,7 +68,8 @@ This table shows the total sales grouped by region.
 | East   | 367.0 |
 | West   | 364.0 |
 
-![Total Sales by Region](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/5c5007db-026a-4f74-aa62-3626fdafe14f)
+![Total Sales by Region](https://github.com/user-attachments/assets/325c73b2-6761-49d6-bbfb-ff023d785b6b)
+
 
 ### Average Sales per Employee:
 This table shows the average sales per employee.
@@ -80,7 +81,8 @@ This table shows the average sales per employee.
 | Maya Silver  | 94.0  |
 | Tom Heints   | 89.5  |
 
-![Average Sales per Employee](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/943f8d24-acdb-4074-88b2-8ecafcab89d8)
+![Average Sales per Employee](https://github.com/user-attachments/assets/b8083d84-68cb-4f98-9af4-e243d02d4f84)
+
 
 ### Sales Trends Over Time:
 This table shows the total sales over time, helping to identify trends in sales.
@@ -91,7 +93,8 @@ This table shows the total sales over time, helping to identify trends in sales.
 | 2022-02-05 | 195.0 |
 | 2022-02-06 | 196.0 |
 
-![Sales Trends Over Time](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/274b30bb-00f9-47c7-8ac4-706a5259fc2d)
+![Sales Trends Over Time](https://github.com/user-attachments/assets/b18d5a39-7fc1-4f3f-93b1-6691eacdb519)
+
 
 ## 📈 Summary
 This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis.
