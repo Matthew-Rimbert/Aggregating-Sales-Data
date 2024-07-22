@@ -63,7 +63,8 @@ The dataset used in this project includes:
 | East   | 367.0 |
 | West   | 364.0 |
 
-![Total Sales by Region](images/total_sales_by_region.png)
+![Total Sales by Region](https://github.com/user-attachments/assets/5c5007db-026a-4f74-aa62-3626fdafe14f)
+)
 
 ### Average Sales per Employee:
 | Empname      | Total |
