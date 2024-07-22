@@ -39,14 +39,17 @@ This project aggregates sales data to provide insights and summary statistics. I
 
 ## 📊 Data
 The dataset used in this project includes:
-- **Orders**
-- **Order Details**
-- **Employees**
-- **Locations**
+
+- **Orders**: This data represents the individual orders placed by customers, including the order number, date, and employee number responsible for the order.
+- **Order Details**: This data provides detailed information about each item in the orders, including the order number, item description, brand, price, and quantity.
+- **Employees**: This dataset includes information about the employees handling the orders, such as employee number, name, and location.
+- **Locations**: This dataset categorizes locations into regions, which helps in regional analysis of sales.
 
 ## 🖼️ Example Outputs
 
 ### Aggregated Sales Data:
+This table shows the aggregated sales data combining information from orders, order details, employees, and locations.
+
 | Date       | Region | Empname      | Total |
 |------------|--------|--------------|-------|
 | 2022-02-04 | East   | Tom Heints   | 97.0  |
@@ -58,15 +61,18 @@ The dataset used in this project includes:
 | 2022-02-06 | West   | Jane Boorman | 86.0  |
 
 ### Total Sales by Region:
+This table shows the total sales grouped by region.
+
 | Region | Total |
 |--------|-------|
 | East   | 367.0 |
 | West   | 364.0 |
 
-![Total Sales by Region](https://github.com/user-attachments/assets/5c5007db-026a-4f74-aa62-3626fdafe14f)
-)
+![Total Sales by Region](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/5c5007db-026a-4f74-aa62-3626fdafe14f)
 
 ### Average Sales per Employee:
+This table shows the average sales per employee.
+
 | Empname      | Total |
 |--------------|-------|
 | Jane Boorman | 60.5  |
@@ -74,21 +80,19 @@ The dataset used in this project includes:
 | Maya Silver  | 94.0  |
 | Tom Heints   | 89.5  |
 
-![Average Sales per Employee](https://github.com/user-attachments/assets/943f8d24-acdb-4074-88b2-8ecafcab89d8)
-
+![Average Sales per Employee](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/943f8d24-acdb-4074-88b2-8ecafcab89d8)
 
 ### Sales Trends Over Time:
+This table shows the total sales over time, helping to identify trends in sales.
+
 | Date       | Total |
 |------------|-------|
 | 2022-02-04 | 340.0 |
 | 2022-02-05 | 195.0 |
 | 2022-02-06 | 196.0 |
 
-![Sales Trends Over Time](https://github.com/user-attachments/assets/274b30bb-00f9-47c7-8ac4-706a5259fc2d)
+![Sales Trends Over Time](https://github.com/Matthew-Rimbert/Aggregating-Sales-Data/assets/274b30bb-00f9-47c7-8ac4-706a5259fc2d)
 
+## 📈 Summary
+This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis.
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📜 License
-This project is licensed under the MIT License.
