@@ -74,7 +74,8 @@ The dataset used in this project includes:
 | Maya Silver  | 94.0  |
 | Tom Heints   | 89.5  |
 
-![Average Sales per Employee](images/average_sales_per_employee.png)
+![Average Sales per Employee](https://github.com/user-attachments/assets/943f8d24-acdb-4074-88b2-8ecafcab89d8)
+
 
 ### Sales Trends Over Time:
 | Date       | Total |
@@ -83,7 +84,8 @@ The dataset used in this project includes:
 | 2022-02-05 | 195.0 |
 | 2022-02-06 | 196.0 |
 
-![Sales Trends Over Time](images/sales_trends_over_time.png)
+![Sales Trends Over Time](https://github.com/user-attachments/assets/274b30bb-00f9-47c7-8ac4-706a5259fc2d)
+
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
