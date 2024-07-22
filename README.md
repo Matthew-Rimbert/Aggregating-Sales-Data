@@ -145,3 +145,13 @@ df_details = pd.DataFrame(details, columns=['OrderNo', 'Item', 'Brand', 'Price',
 # Merge Orders and Order Details
 df_sales = df_orders.merge(df_details)
 df_sales['Total'] = df_sales['Price'] * df_sales['Quantity']
+
+## 📈 Summary
+This project provides a comprehensive analysis of sales data. By merging multiple datasets, it offers insights into sales performance by region, average sales per employee, and sales trends over time. The visualizations created using matplotlib and seaborn help in understanding the data better and making informed decisions based on the analysis. 
+
+**Total Sales by Region:** The total sales by region showcase that sales are evenly distributed between both regions. This even split suggests that both regions have equal potential for sales. This balanced distribution could imply that the sales strategies are uniformly effective across regions, but further analysis might be required to understand the underlying factors contributing to this balance.
+
+**Average Sales per Employee:** The average sales per employee provide valuable insights into the performance of the sales team. Notably, Jeff Russell has a significantly higher average sales amount. This discrepancy suggests that Jeff Russell may have particularly effective sales tactics or a higher level of experience. To improve overall sales performance, it might be beneficial to analyze Jeff's methods and consider implementing training programs to help other employees achieve similar results. Additionally, introducing incentives could motivate the sales team to enhance their performance.
+
+**Sales Trends Over Time:** The sales trends over time highlight fluctuations in sales performance. February 4th shows a peak in sales, which could be due to specific marketing efforts, promotions, or external factors influencing customer behavior. The following days show a decline, suggesting a need for consistent strategies to maintain high sales levels. Further analysis could help identify the causes of these fluctuations and assist in developing strategies to achieve more stable sales growth.
+
