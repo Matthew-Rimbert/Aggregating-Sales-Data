@@ -93,7 +93,8 @@ This table shows the total sales over time, helping to identify trends in sales.
 | 2022-02-05 | 195.0 |
 | 2022-02-06 | 196.0 |
 
-![Sales Trends Over Time](https://github.com/user-attachments/assets/b18d5a39-7fc1-4f3f-93b1-6691eacdb519)
+![Sales Trends Over Time](https://github.com/user-attachments/assets/01200efc-ec7e-4fa4-aadf-01cfe253a9fc)
+
 
 
 ## 📈 Summary
